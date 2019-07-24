@@ -20,7 +20,7 @@ class CardHelper {
             var heroCard = CardFactory.thumbnailCard(
                 'Cloud Enablement and Infrastructure',
                 cardTitle,
-                [],
+                ['https://github.com/ics-chatbot/spoon/blob/master/images/cloud-enablement.png'],
                 CardFactory.actions(buttons));
             
             return  { attachments: [heroCard] }
