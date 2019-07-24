@@ -20,7 +20,7 @@ class CardHelper {
             var heroCard = CardFactory.thumbnailCard(
                 'Cloud Enablement and Infrastructure',
                 cardTitle,
-                ['https://github.com/ics-chatbot/spoon/blob/master/images/cloud-enablement.png'],
+                ['http://quantumexchange.com.au/wp-content/themes/quantumexchange2014/images/telstra-cloud-logo.svg'],
                 CardFactory.actions(buttons));
             
             return  { attachments: [heroCard] }
