@@ -17,7 +17,8 @@ class CardHelper {
                 });
             });
                        
-            var heroCard = CardFactory.heroCard(
+            var heroCard = CardFactory.thumbnailCard(
+                'Cloud Enablement and Infrastructure',
                 cardTitle,
                 [],
                 CardFactory.actions(buttons));
